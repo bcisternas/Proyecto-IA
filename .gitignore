@@ -1,0 +1,26 @@
+# Archivos compilados
+*.o
+PSP-UAV
+main
+
+# Resultados generados automáticamente
+resultados/
+
+# Archivos temporales
+*.swp
+*.swo
+*~
+
+# Archivos de LaTeX
+Informe/*.aux
+Informe/*.log
+Informe/*.out
+Informe/*.bbl
+Informe/*.blg
+Informe/*.synctex.gz
+Informe/*.fdb_latexmk
+Informe/*.fls
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

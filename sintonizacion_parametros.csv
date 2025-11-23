@@ -1,0 +1,6 @@
+config_id,poblacion,mutacion,torneo,iter_k3,iter_k5,iter_k10,exito_k3,exito_k5,exito_k10,tiempo_k3,tiempo_k5,tiempo_k10,fitness_prom_k3,fitness_prom_k5,fitness_prom_k10,notas
+baseline,50,0.02,3,1000,1000,1000,6/6,6/6,0/6,19.34,9.09,7.81,935444,897401,N/A,Configuración inicial - falla k=10
+config_01,100,0.05,5,1000,1000,3000,6/6,6/6,2/6,30.89,15.17,43.87,938252,913780,1221029,Mejora k=10: 0%→33% - Instancias 02_b y 03_b válidas
+config_02,100,0.05,5,1000,1000,5000,6/6,6/6,1/6,30.36,14.90,71.08,940766,906502,1755638,Peor que config_01 - más iter no ayuda
+config_03,150,0.08,5,1000,1000,3000,6/6,6/6,1/6,42.89,22.25,53.76,935631,905193,1862153,Igual que config_02 - demasiada mutación
+config_04,100,0.05,3,1000,1000,3000,?,?,?,?,?,?,?,?,?,Torneo pequeño - más diversidad

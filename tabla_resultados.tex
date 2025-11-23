@@ -1,0 +1,40 @@
+\begin{table}[htbp]
+\centering
+\caption{Resultados experimentales del algoritmo evolutivo para PSP-UAV}
+\label{tab:resultados_experimentos}
+\small
+\begin{tabular}{lrrrr}
+\hline
+\textbf{Instancia} & \textbf{Drones ($k$)} & \textbf{Urgencia Acumulada} & \textbf{Válida} & \textbf{Tiempo (s)} \\
+\hline
+PSP-UAV\_01\_a & 3 & 159.770 & \checkmark & 2,41 \\
+PSP-UAV\_01\_a & 5 & \textit{10.199.610} & \texttimes & 1,95 \\
+PSP-UAV\_01\_a & 10 & \textit{10.500.000} & \texttimes & 0,64 \\
+\hline
+PSP-UAV\_01\_b & 3 & 145.674 & \checkmark & 2,28 \\
+PSP-UAV\_01\_b & 5 & 135.904 & \checkmark & 2,31 \\
+PSP-UAV\_01\_b & 10 & \textit{10.345.747} & \texttimes & 2,02 \\
+\hline
+PSP-UAV\_02\_a & 3 & 642.720 & \checkmark & 6,67 \\
+PSP-UAV\_02\_a & 5 & \textit{10.416.014} & \texttimes & 6,87 \\
+PSP-UAV\_02\_a & 10 & \textit{10.500.000} & \texttimes & 1,12 \\
+\hline
+PSP-UAV\_02\_b & 3 & 626.982 & \checkmark & 6,90 \\
+PSP-UAV\_02\_b & 5 & \textit{10.408.652} & \texttimes & 5,51 \\
+PSP-UAV\_02\_b & 10 & \textit{10.396.150} & \texttimes & 8,23 \\
+\hline
+PSP-UAV\_03\_a & 3 & 2.044.422 & \checkmark & 19,64 \\
+PSP-UAV\_03\_a & 5 & 2.024.246 & \checkmark & 13,69 \\
+PSP-UAV\_03\_a & 10 & \textit{10.500.000} & \texttimes & 3,61 \\
+\hline
+PSP-UAV\_03\_b & 3 & 1.923.246 & \checkmark & 19,05 \\
+PSP-UAV\_03\_b & 5 & \textit{10.476.163} & \texttimes & 11,81 \\
+PSP-UAV\_03\_b & 10 & \textit{10.475.528} & \texttimes & 12,62 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Nota:} Los valores en cursiva representan soluciones inválidas penalizadas con fitness $\geq 10^7$.
+\item \checkmark: Solución válida; \texttimes: Solución inválida (colisiones o fuera de límites).
+\end{tablenotes}
+\end{table}
